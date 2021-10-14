@@ -70,24 +70,9 @@ header i{
     border-radius: 9px;
 }
 
-.transform_up{
-    transform: translateY(20%);
-}.transform_down{
-    transform: translateY(-20%);
-}.transform_left{
-    transform: translateX(20%);
-}.transform_right{
-    transform: translateX(-20%);
-}
-
-.aparece{
-    opacity: 1;
-    transform: none;
-}
-
 .quienes-container h2{
     position: absolute;
-    top: 10px;
+    top: 15px;
     right:75px;
     color: #C4C4C4;
     font-family: 'Raleway', sans-serif;
@@ -98,7 +83,8 @@ header i{
 .lista li{
     padding-top: 40px;
     list-style: none;
-    font-weight: 300;
+    font-weight: 200;
+    font-size: 20px;
 }
 
 .lista{
@@ -107,7 +93,6 @@ header i{
     top: 50px;
     right: 0;
     color: white;
-    font-size: 20px;
     width: 900px;
 }
 
@@ -129,6 +114,8 @@ header i{
 
 
 .servicios-container{
+    opacity: 0.5;
+    transition: all 0.5s;
     margin-top: 100px;
     background: #C4C4C4;
     border-radius: 9px;
@@ -212,15 +199,20 @@ header i{
     opacity: 0.5;
     transition: all 0.5s;
     margin-top: 100px;
+    border-radius: 9px;
 }
 
 .background2{
     position: relative;
 }
 
+.background2 img{
+    border-radius: 9px;
+}
+
 .background2 h2{
     position: absolute;
-    top: 10px;
+    top: 25px;
     left: 130px;
     font-weight: bold;
     font-size: 35px;
@@ -235,9 +227,24 @@ header i{
     color: white;
     left: 45px;
     font-weight: 200;
-
 }
 
 #footer{
     margin-top: 100px;
+}
+
+
+.transform_up{
+    transform: translateY(20%);
+}.transform_down{
+    transform: translateY(-20%);
+}.transform_left{
+    transform: translateX(20%);
+}.transform_right{
+    transform: translateX(-20%);
+}
+
+.aparece{
+    opacity: 1;
+    transform: none;
 }

@@ -1,23 +1,25 @@
 window.addEventListener('scroll',function(){
 
-    var imagen = document.querySelectorAll('.fade_up')[0];
+    var imagen = document.querySelectorAll('.fade_up');
 
-
+for(var i = 0; i < imagen.length; i++){
+    
+    
     var altura = window.innerHeight/1.1;
 
-    var distancia = imagen.getBoundingClientRect().top;
+    var distancia = imagen[i].getBoundingClientRect().top;
 
 
 
     console.log(altura);
     console.log(distancia);
 
-        imagen.classList.add('transform_up')
+        imagen[i].classList.add('transform_up')
 
 
     if(distancia <= altura){
 
-        imagen.classList.add('aparece');
+        imagen[i].classList.add('aparece');
 
 
 
@@ -26,10 +28,10 @@ window.addEventListener('scroll',function(){
 
     }
         else{
-            imagen.classList.remove('aparece');
+            imagen[i].classList.remove('aparece');
         }
 
-
+}
 
 
 })
