@@ -8,6 +8,9 @@ header {
   height: 100%;
   position: absolute;
   overflow: auto;
+  background-image: url(/images/img5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -103,6 +106,7 @@ nav {
   width: 0%;
   z-index: 10;
   opacity: 0;
+  text-decoration: none;
  
     transition: all 600ms cubic-bezier(.62,.04,.3,1.56);
    transition-delay: 100ms;
@@ -111,6 +115,7 @@ nav {
     position: absolute;
     top: 30%;
     left: 40%;
+    text-decoration: none;
     li {
       list-style: none;
       font-size: 24px;
@@ -118,9 +123,15 @@ nav {
       line-height: 2.2;
       text-transform: uppercase;
       letter-spacing: 1.7px;
-      
-      &:before {
-        
+      text-decoration: none;
+      a{
+        color: white;
+        text-decoration: none;
+      }
+      a:hover{
+        color: rgb(117, 117, 117);
+        text-decoration: none;
+        transition: 0.3s all ease-in-out;
       }
     }
   }
@@ -181,4 +192,13 @@ nav {
      animation: shotup 600ms ease-in-out;
     animation-delay: 300ms;
   }
+}
+
+.whatsapp{
+  position: absolute;
+  width: 150px;
+  right:80px;
+  bottom: 80px;
+  cursor: pointer;
+  padding: 0;
 }

@@ -1,40 +1,3 @@
-window.addEventListener('scroll',function(){
-
-    var imagen = document.querySelectorAll('.fade_up');
-
-for(var i = 0; i < imagen.length; i++){
-    
-    
-    var altura = window.innerHeight/1.1;
-
-    var distancia = imagen[i].getBoundingClientRect().top;
-
-
-
-    console.log(altura);
-    console.log(distancia);
-
-        imagen[i].classList.add('transform_up')
-
-
-    if(distancia <= altura){
-
-        imagen[i].classList.add('aparece');
-
-
-
-
-
-
-    }
-        else{
-            imagen[i].classList.remove('aparece');
-        }
-
-}
-
-
-})
 
 var icon = document.getElementById("icon");
 var icon1 = document.getElementById("a");
@@ -49,4 +12,19 @@ icon.addEventListener('click', function() {
   icon3.classList.toggle('b');
   nav.classList.toggle('show');
   blue.classList.toggle('slide');
+});
+
+const typed = new Typed('.typed', {
+    strings: ['SOMOS UNA PRODUCTORA AUDIOVISUAL DE CONTENIDO <b>CREATIVO</b>',
+    'PRODUCIMOS CONTENIDOS TESTIMONIALES PARA <b>COMUNICACIÓN</b>',
+    'PRODUCIMOS MATERIALES <br>CREATIVOS PARA <b>SOCIAL MEDIA</b>',
+    'CREAMOS TODO TIPO DE PIEZAS AUDIOVISUALES<br> PARA <b>PUBLICIDAD</b>'],
+
+    typeSpeed: 55,
+    startDelay: 300,
+    backSpeed: 15,
+    loopCount: false,
+    showCursor: true,
+    cursorChar: '|',
+    contentType: 'html',
 });

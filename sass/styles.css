@@ -1,10 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 body {
   font-family: 'montserrat',roboto;
-  background: black;
-  background-image: url(/images/img4.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 header {
@@ -12,6 +8,9 @@ header {
   height: 100%;
   position: absolute;
   overflow: auto;
+  background-image: url(/images/img5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo {
@@ -114,6 +113,7 @@ nav {
   width: 0%;
   z-index: 10;
   opacity: 0;
+  text-decoration: none;
   -webkit-transition: all 600ms cubic-bezier(0.62, 0.04, 0.3, 1.56);
   transition: all 600ms cubic-bezier(0.62, 0.04, 0.3, 1.56);
   -webkit-transition-delay: 100ms;
@@ -125,6 +125,7 @@ nav ul {
   position: absolute;
   top: 30%;
   left: 40%;
+  text-decoration: none;
 }
 
 nav ul li {
@@ -134,6 +135,19 @@ nav ul li {
   line-height: 2.2;
   text-transform: uppercase;
   letter-spacing: 1.7px;
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #757575;
+  text-decoration: none;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 
 nav.show {
@@ -212,5 +226,14 @@ nav.show {
           animation: shotup 600ms ease-in-out;
   -webkit-animation-delay: 300ms;
           animation-delay: 300ms;
+}
+
+.whatsapp {
+  position: absolute;
+  width: 150px;
+  right: 80px;
+  bottom: 80px;
+  cursor: pointer;
+  padding: 0;
 }
 /*# sourceMappingURL=styles.css.map */
