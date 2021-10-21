@@ -8,8 +8,9 @@ header {
   height: 100%;
   position: absolute;
   overflow: auto;
-  background-image: url(/images/img5.jpg);
+  background-image: url(https://img2.goodfon.com/wallpaper/nbig/2/64/canon-camera-black-1100d.jpg);
   background-repeat: no-repeat;
+  width: 100%;
   background-size: cover;
 }
 
