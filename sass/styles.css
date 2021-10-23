@@ -14,9 +14,69 @@ header {
   background-size: cover;
 }
 
+.fade-in-text {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  animation: fadeOut 10s;
+  -webkit-animation: fadeOut 10s;
+  -moz-animation: fadeOut 10s;
+  -o-animation: fadeOut 10s;
+  -ms-animation: fadeOut 10s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
 .logo {
   float: right;
-  margin-top: 50px;
+  position: absolute;
+  top: 1%;
+  right: 1px;
 }
 
 .icon-1, .icon-2, .icon-3 {
@@ -48,7 +108,7 @@ header {
   position: absolute;
   height: 60px;
   width: 60px;
-  top: 10%;
+  top: 5%;
   left: 3%;
   z-index: 1000;
   cursor: pointer;
@@ -221,7 +281,7 @@ nav.show {
 }
 
 .content h1 {
-  color: #e7e7e7;
+  color: white;
   font-size: 70px;
   -webkit-animation: shotup 600ms ease-in-out;
           animation: shotup 600ms ease-in-out;
@@ -232,8 +292,8 @@ nav.show {
 .whatsapp {
   position: absolute;
   width: 150px;
-  right: 80px;
-  bottom: 80px;
+  right: 40px;
+  bottom: 15px;
   cursor: pointer;
   padding: 0;
 }

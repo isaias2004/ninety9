@@ -3,6 +3,7 @@
 body {
   font-family: 'montserrat',roboto;
 }
+
 header {
   width: 100%;
   height: 100%;
@@ -16,7 +17,9 @@ header {
 
 .logo{
     float: right;
-    margin-top: 50px;
+    position: absolute;
+    top: 1%;
+    right: 1px;
 }
 
 .icon-1, .icon-2, .icon-3 {
@@ -43,7 +46,7 @@ header {
   position: absolute;
   height: 60px;
   width: 60px;
-  top: 10%;
+  top: 5%;
   left: 3%;
   z-index: 1000;
   cursor: pointer;
@@ -187,9 +190,9 @@ nav {
   transform: translate(-50%, -50%);
   text-align: center;
   h1 {
-      color: #e7e7e7;
+    color: white;
     font-size: 70px;
-     animation: shotup 600ms ease-in-out;
+    animation: shotup 600ms ease-in-out;
     animation-delay: 300ms;
   }
 }
@@ -197,8 +200,8 @@ nav {
 .whatsapp{
   position: absolute;
   width: 150px;
-  right:80px;
-  bottom: 80px;
+  right: 40px;
+  bottom: 15px;
   cursor: pointer;
   padding: 0;
 }
