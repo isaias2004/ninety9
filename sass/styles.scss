@@ -9,10 +9,10 @@ header {
   height: 100%;
   position: absolute;
   overflow: auto;
-  background-image:url(https://img2.goodfon.com/wallpaper/nbig/2/64/canon-camera-black-1100d.jpg);
+  background-image:url(/images/img5.jpg);
   background-repeat: no-repeat;
-  width:100%;
   background-size:cover;
+  width:100%;
 }
 
 .logo{
@@ -20,6 +20,7 @@ header {
     position: absolute;
     top: 1%;
     right: 1px;
+    cursor: pointer;
 }
 
 .icon-1, .icon-2, .icon-3 {
@@ -195,7 +196,30 @@ nav {
     animation: shotup 600ms ease-in-out;
     animation-delay: 300ms;
   }
+  h2{
+    font-size: 90px;
+    color: rgb(160, 160, 160);
+    animation: shotup 600ms ease-in-out;
+    animation-delay: 300ms;
+  }
+  p{
+    font-size: 50px;
+    color: white;
+    animation: shotup 600ms ease-in-out;
+    animation-delay: 300ms;
+  }
+  .footer{
+    animation: shotup 600ms ease-in-out;
+    animation-delay: 300ms;
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
+
 
 .whatsapp{
   position: absolute;
