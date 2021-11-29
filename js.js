@@ -20,7 +20,7 @@ const typed = new Typed('.typed', {
     'PRODUCIMOS MATERIALES <br>CREATIVOS PARA <b>SOCIAL MEDIA</b>',
     'CREAMOS TODO TIPO DE PIEZAS AUDIOVISUALES<br> PARA <b>PUBLICIDAD</b>'],
 
-    typeSpeed: 70,
+    typeSpeed: 50,
     startDelay: 300,
     backSpeed: 15,
     loopCount: false,
