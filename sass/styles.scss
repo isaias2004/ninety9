@@ -250,11 +250,32 @@ nav {
     padding: 7px;
     box-sizing: border-box;
     font-size: 19px;
+    background: #161616;
+    border: 1px solid #ffffff;
   }
 
   button{
     font-size: 19px;
+    background: #161616;
+    border: 1px solid #ffffff;
+    color: #ffffff;
   }
 }
 
+.container-estamos{
+  text-align: justify;
 
+  li{
+    text-decoration: none;
+    list-style: none;
+  }
+}
+
+.container-estamos ul{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 25px;
+  color: white;
+  padding: 0;
+}

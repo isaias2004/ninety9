@@ -330,9 +330,37 @@ nav.show {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 19px;
+  background: #161616;
+  border: 1px solid #ffffff;
 }
 
 #container-form button {
   font-size: 19px;
+  background: #161616;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.container-estamos {
+  text-align: justify;
+}
+
+.container-estamos li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.container-estamos ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  font-size: 25px;
+  color: white;
+  padding: 0;
 }
 /*# sourceMappingURL=styles.css.map */
