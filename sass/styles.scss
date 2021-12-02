@@ -4,7 +4,6 @@ body {
   font-family: 'montserrat',roboto;
 }
 
-
 .logo{
     float: right;
     position: absolute;
@@ -105,7 +104,7 @@ nav {
       letter-spacing: 1.7px;
       text-decoration: none;
       a{
-        color: white;
+        color: #ffff;
         text-decoration: none;
       }
       a:hover{
@@ -157,14 +156,12 @@ nav {
 
 .content {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 30%;
   width: 100%;
-  transform: translate(-50%, -50%);
   text-align: center;
   h1 {
-    color: white;
-    font-size: 70px;
+    color: #ffff;
+    font-size: 50px;
     animation: shotup 600ms ease-in-out;
     animation-delay: 300ms;
   }
@@ -176,7 +173,7 @@ nav {
   }
   p{
     font-size: 50px;
-    color: white;
+    color: #ffff;
     animation: shotup 600ms ease-in-out;
     animation-delay: 300ms;
   }
@@ -192,40 +189,33 @@ nav {
   }
 }
 
+#content {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  width: 50%;
+  text-align: right;
+  h1 {
+    color: #ffff;
+    font-size: 50px;
+    animation: shotup 600ms ease-in-out;
+    animation-delay: 300ms;
+  }
+  
+}
 
 .whatsapp{
   position: absolute;
-  width: 150px;
+  width: 100px;
   right: 40px;
   bottom: 15px;
   cursor: pointer;
   padding: 0;
 }
 
-.page-back{
-  position: absolute;
-  bottom: 50px;
-  right: 350px;
-  font-size: 50px;
-  color: white;
-}
-
-.page-back :hover{
-  width: 90px;
-}
-
-.page-next{
-  position: absolute;
-  bottom: 50px;
-  right: 300px;
-  font-size: 50px;
-  color: white;
-}
-
-
 #content-footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 
   h2{
     font-size: 50px;
@@ -237,7 +227,6 @@ nav {
   font-size: 4rem;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
 } 
 
 #container-form{
@@ -252,6 +241,7 @@ nav {
     font-size: 19px;
     background: #161616;
     border: 1px solid #ffffff;
+    color: #fff;
   }
 
   button{
@@ -276,6 +266,6 @@ nav {
   flex-direction: column;
   text-align: left;
   font-size: 25px;
-  color: white;
+  color: #ffff;
   padding: 0;
 }

@@ -15,10 +15,10 @@ icon.addEventListener('click', function() {
 });
 
 const typed = new Typed('.typed', {
-    strings: ['SOMOS UNA PRODUCTORA AUDIOVISUAL DE CONTENIDO <b>CREATIVO</b>',
-    'PRODUCIMOS CONTENIDOS TESTIMONIALES PARA <b>COMUNICACIÓN</b>',
-    'PRODUCIMOS MATERIALES <br>CREATIVOS PARA <b>SOCIAL MEDIA</b>',
-    'CREAMOS TODO TIPO DE PIEZAS AUDIOVISUALES<br> PARA <b>PUBLICIDAD</b>'],
+    strings: ['SOMOS UNA PRODUCTORA AUDIOVISUAL DE CONTENIDO <b style = font-size:80px;>CREATIVO</b>',
+    'PRODUCIMOS CONTENIDOS TESTIMONIALES PARA <b style = font-size:80px;>COMUNICACIÓN</b>',
+    'PRODUCIMOS MATERIALES CREATIVOS PARA<br> <b style = font-size:80px;>SOCIAL MEDIA</b>',
+    'CREAMOS TODO TIPO DE PIEZAS AUDIOVISUALES PARA <b style = font-size:80px;>PUBLICIDAD</b>'],
 
     typeSpeed: 50,
     startDelay: 300,

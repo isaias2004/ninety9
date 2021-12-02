@@ -133,7 +133,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #ffff;
   text-decoration: none;
 }
 
@@ -205,17 +205,14 @@ nav.show {
 
 .content {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 30%;
   width: 100%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   text-align: center;
 }
 
 .content h1 {
-  color: white;
-  font-size: 70px;
+  color: #ffff;
+  font-size: 50px;
   -webkit-animation: shotup 600ms ease-in-out;
           animation: shotup 600ms ease-in-out;
   -webkit-animation-delay: 300ms;
@@ -233,7 +230,7 @@ nav.show {
 
 .content p {
   font-size: 50px;
-  color: white;
+  color: #ffff;
   -webkit-animation: shotup 600ms ease-in-out;
           animation: shotup 600ms ease-in-out;
   -webkit-animation-delay: 300ms;
@@ -259,42 +256,38 @@ nav.show {
   margin: 0 auto;
 }
 
+#content {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  width: 50%;
+  text-align: right;
+}
+
+#content h1 {
+  color: #ffff;
+  font-size: 50px;
+  -webkit-animation: shotup 600ms ease-in-out;
+          animation: shotup 600ms ease-in-out;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+
 .whatsapp {
   position: absolute;
-  width: 150px;
+  width: 100px;
   right: 40px;
   bottom: 15px;
   cursor: pointer;
   padding: 0;
 }
 
-.page-back {
-  position: absolute;
-  bottom: 50px;
-  right: 350px;
-  font-size: 50px;
-  color: white;
-}
-
-.page-back :hover {
-  width: 90px;
-}
-
-.page-next {
-  position: absolute;
-  bottom: 50px;
-  right: 300px;
-  font-size: 50px;
-  color: white;
-}
-
 #content-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 #content-footer h2 {
@@ -310,7 +303,6 @@ nav.show {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 50px;
 }
 
 #container-form {
@@ -332,6 +324,7 @@ nav.show {
   font-size: 19px;
   background: #161616;
   border: 1px solid #ffffff;
+  color: #fff;
 }
 
 #container-form button {
@@ -360,7 +353,7 @@ nav.show {
           flex-direction: column;
   text-align: left;
   font-size: 25px;
-  color: white;
+  color: #ffff;
   padding: 0;
 }
 /*# sourceMappingURL=styles.css.map */

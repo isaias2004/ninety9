@@ -15,9 +15,9 @@ icon.addEventListener('click', function() {
 });
 
 const typed = new Typed('.typed', {
-    strings: ['<b>Estamos muy agradecidos por tu contacto y apreciamos que estés en nuestro sitio web, será genial conocer tu proyecto y trabajar juntos!</b>'],
+    strings: ['Estamos muy agradecidos por tu contacto y apreciamos que estés en nuestro sitio web, será genial conocer tu <b>proyecto</b> y trabajar <b>juntos</b>!'],
 
-    typeSpeed: 50,
+    typeSpeed: 35,
     startDelay: 300,
     backSpeed: 15,
     loopCount: false,
