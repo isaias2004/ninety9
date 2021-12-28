@@ -356,4 +356,140 @@ nav.show {
   color: #ffff;
   padding: 0;
 }
+
+#nosotros {
+  background: #000000;
+  color: #ffff;
+}
+
+.content-nosotros {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 50px;
+}
+
+.content-nosotros h2 {
+  font-size: 110px;
+  float: left;
+  font-weight: bold;
+  -webkit-animation: shotup 600ms ease-in-out;
+          animation: shotup 600ms ease-in-out;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+
+.content-nosotros h3 {
+  float: right;
+  font-size: 30px;
+  max-width: 500px;
+  font-weight: bolder;
+  margin-top: 80px;
+}
+
+#desde {
+  float: left;
+}
+
+#desde p {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 100px;
+}
+
+.tarjet {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.content-tarjet {
+  width: 300px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.content-tarjet h3 {
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 10px 0px 10px 0px;
+}
+
+.content-tarjet h3 p {
+  text-align: justify;
+}
+
+.youtube {
+  text-align: center;
+  margin-top: 150px;
+}
+
+iframe {
+  width: 100%;
+  height: 700px;
+}
+
+.imagen {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.imagen img {
+  border: 1px solid white;
+}
+
+.imagen h2 {
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.imagen p {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.imagen .linea {
+  width: 200px;
+  border-bottom: 2px solid white;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.imagen .linkedin {
+  font-size: 50px;
+  margin: 20px;
+  color: #0D66C2;
+  background: white;
+  padding: 1px 4px 1px 3px;
+  border-radius: 10%;
+}
+
+.imagen .linkedin:hover {
+  color: red;
+  font-size: 55px;
+  -webkit-transition: 0.5s ease-in-out all;
+  transition: 0.5s ease-in-out all;
+}
+
+.derechos {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 13px;
+}
 /*# sourceMappingURL=styles.css.map */
