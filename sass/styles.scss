@@ -1,7 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
 body {
   font-family: 'montserrat',roboto;
+  background: #000000;
 }
 
 .logo{
@@ -10,7 +18,7 @@ body {
     top: 1%;
     right: 1px;
     cursor: pointer;
-    width: 50rem;
+    width: 45rem;
 }
 
 .icon-1, .icon-2, .icon-3 {
@@ -161,7 +169,7 @@ nav {
   text-align: center;
   h1 {
     color: #ffff;
-    font-size: 50px;
+    font-size: 5em;
     animation: shotup 600ms ease-in-out;
     animation-delay: 300ms;
   }
@@ -192,20 +200,43 @@ nav {
 #content {
   position: absolute;
   top: 40%;
-  right: 0;
-  width: 50%;
-  text-align: right;
+  left: 0;
+  width: 80%;
+  text-align: left;
+} 
   h1 {
+    float: left;
     color: #ffff;
-    font-size: 50px;
+    font-size: 5em;
     animation: shotup 600ms ease-in-out;
     animation-delay: 300ms;
-  }
-  
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
 }
+    h1:before{
+      content: '';
+      position: absolute;
+      left: 120%;
+      width: 120%;
+      height: 120%;
+      background: linear-gradient(110deg, transparent 0%, #000 5%, #000 100%);
+      animation: animate 10s linear forwards;
+    }
+    @keyframes animate{
+      0%{
+        left:-20%;
+      }
+      50%{
+        left:120%;
+      }
+      100%{
+        left:-20%;
+      }
+    }
 
 .whatsapp{
-  position: absolute;
+  position: fixed;
   width: 100px;
   right: 40px;
   bottom: 15px;
@@ -238,23 +269,27 @@ nav {
     margin-bottom: 20px;
     padding: 7px;
     box-sizing: border-box;
-    font-size: 19px;
+    font-size: 2em;
     background: #161616;
     border: 1px solid #ffffff;
     color: #fff;
   }
 
   button{
-    font-size: 19px;
+    font-size: 2em;
     background: #161616;
     border: 1px solid #ffffff;
     color: #ffffff;
+  }
+  h3{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
   }
 }
 
 .container-estamos{
   text-align: left;
-
   li{
     text-decoration: none;
     list-style: none;
@@ -262,10 +297,11 @@ nav {
 }
 
 .container-estamos ul{
+  margin-top: 45px;
   display: flex;
   flex-direction: column;
   text-align: left;
-  font-size: 25px;
+  font-size: 2em;
   color: #ffff;
   padding: 0;
 }
@@ -278,25 +314,45 @@ nav {
 .content-nosotros{
   position: absolute;
   top: 30%;
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   padding-left: 50px;
-  h2{
-    font-size: 110px;
+   }
+  h2 {
     float: left;
-    font-weight: bold;
+    color: #ffff;
+    font-size: 8em;
     animation: shotup 600ms ease-in-out;
     animation-delay: 300ms;
-   }
-   h3{
-      float: right;
-      font-size: 30px;
-      max-width: 500px;
-      font-weight: bolder;
-      margin-top:80px;
-    }
+    overflow: hidden;
+    position: relative;
+    font-weight: bolder;
 }
+    h2:before{
+      content: '';
+      position: absolute;
+      left: 120%;
+      width: 120%;
+      height: 120%;
+      background: linear-gradient(110deg, transparent 0%, #000 5%, #000 100%);
+      animation: animate 15s linear forwards;
+    }
+    @keyframes animate{
+      0%{
+        left:-20%;
+      }
+      50%{
+        left:120%;
+      }
+      100%{
+        left:-20%;
+      }
+    }
+   h3{
+      font-size: 3em;
+      margin-top:40px;
+    }
 
 #desde{
   float: left;
@@ -323,15 +379,16 @@ nav {
 .content-tarjet{
   width: 300px;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 2em;
  h3{
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 2em;
   padding: 10px 0px 10px 0px;
+  } 
     p{
+      font-size: 1em;
      text-align: justify; 
     }
-  } 
 }
 
 .youtube{
@@ -347,10 +404,11 @@ nav {
   margin-top: 200px;
   img{
     border: 1px solid white;
-  } h2{
+  } h3{
+    text-align: center;
     padding-top: 10px;
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 3em;
     font-weight: bolder;
   } p{
     font-size: 15px;
