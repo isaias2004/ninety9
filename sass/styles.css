@@ -267,6 +267,7 @@ h1 {
   overflow: hidden;
   position: relative;
   text-transform: uppercase;
+  margin-left: 1.5em;
 }
 
 h1:before {
@@ -339,8 +340,8 @@ h2:before {
   width: 120%;
   height: 120%;
   background: linear-gradient(110deg, transparent 0%, #000 5%, #000 100%);
-  -webkit-animation: animate 15s linear forwards;
-          animation: animate 15s linear forwards;
+  -webkit-animation: animate 10s linear forwards;
+          animation: animate 10s linear forwards;
 }
 
 @keyframes animate {

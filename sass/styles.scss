@@ -205,6 +205,7 @@ nav {
     overflow: hidden;
     position: relative;
     text-transform: uppercase;
+    margin-left: 1.5em;
 }
     h1:before{
       content: '';
@@ -255,7 +256,7 @@ nav {
       width: 120%;
       height: 120%;
       background: linear-gradient(110deg, transparent 0%, #000 5%, #000 100%);
-      animation: animate 15s linear forwards;
+      animation: animate 10s linear forwards;
     }
     @keyframes animate{
       0%{
