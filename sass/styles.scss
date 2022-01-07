@@ -294,7 +294,7 @@ nav {
    
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 20px;
+  grid-gap: 100px;
 }
 
 .content-tarjet{
@@ -308,7 +308,13 @@ nav {
   } 
     p{
       font-size: 1em;
-     text-align: justify; 
+      text-align: left; 
+      letter-spacing: 1px;
+      line-height: 30px;
+    }
+    i{
+      color:  rgb(95, 95, 95);
+      font-size: 2.5em;
     }
 }
 
