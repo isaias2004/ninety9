@@ -16,7 +16,7 @@ body {
     float: right;
     position: absolute;
     top: 1%;
-    right: 1px;
+    right: 20px;
     cursor: pointer;
     width: 45rem;
 }
@@ -440,7 +440,7 @@ nav {
   padding: 0;
 }
 
-h3{
+#titulo-principal-mobile{
   display: none; 
 }
 
@@ -462,7 +462,7 @@ h3{
 
   .logo{
     top: 20px;
-    width: 30em;
+    width: 25em;
     margin: 0 auto;
     padding: 0;
     float: none;
@@ -473,6 +473,7 @@ h3{
     float: right;
     right: 0;
     left: 80%;
+    top: 3.5%;
     background: none;
   }
 
