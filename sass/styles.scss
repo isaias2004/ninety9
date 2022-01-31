@@ -23,12 +23,13 @@ body {
 
 .icon-1, .icon-2, .icon-3 {
     position: absolute;
-    left: 25%;
+    left: 23%;
     top: 50%;
     width: 32px;
     height: 3px;
-    background-color: black;
+    background-color: #ffffff;
     transition: all 400ms cubic-bezier(.84,.06,.52,1.8);
+    border-radius: 5px;
 }
 
 .icon-1 {
@@ -45,13 +46,13 @@ body {
   position: absolute;
   height: 60px;
   width: 60px;
-  top: 5%;
-  left: 3%;
+  top: 8%;
+  left: 4%;
   z-index: 1000;
   cursor: pointer;
   border-radius: 50%;
   transition: all 0.2s ease-in-out;
-  background: rgba(255, 255, 255, 0.37);
+  color: #fff;
   &:hover {
     transform: scale(1.2);
     box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
@@ -370,14 +371,10 @@ nav {
 #content-footer {
   display: flex;
   justify-content: space-around;
-
-  h2{
-    font-size: 50px;
-  }
 }
 
 #content-footer p{
-  width: 600px;
+  width: 20em;
   font-size: 4rem;
   justify-content: center;
   align-items: center;
@@ -422,7 +419,7 @@ nav {
 }
 
 .container-estamos ul{
-  margin-top: 45px;
+  margin-top: 2em;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -461,7 +458,8 @@ nav {
   }
 
   .logo{
-    top: 20px;
+    top: 1em;
+    left: 1.5em;
     width: 25em;
     margin: 0 auto;
     padding: 0;
@@ -471,9 +469,9 @@ nav {
 
   .hamburger-icon{
     float: right;
-    right: 0;
+    right: 1em;
     left: 80%;
-    top: 3.5%;
+    top: 3em;
     background: none;
   }
 
@@ -485,11 +483,15 @@ nav {
     display: none;
   }
 
+  #titulo-principal-mobile{
+    display: block; 
+  }
+
   h3{
     position: relative;
     font-size: 3em;
     color: #fff;
-    margin: 125px 20px 0 50px;
+    margin: 30% 1em 0 0.5em;
     display: block;
   }
 
@@ -499,8 +501,56 @@ nav {
   }
 
   nav a{
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 
+  .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #content-footer p{
+    font-size: 2.3em;
+    max-width: 15em;
+    margin-left: 1em;
+  }
+
+  #content-footer ul li{
+    font-size: 0.7em;
+    max-width: 30em;
+    margin-left: 5%;
+  }
+
+  #container-form h3{
+    font-size: 2em;
+  }
+
+  #container-form input {
+    font-size: 1em;
+    width: 25em;
+    margin: 0 auto 0.5em;
+  }
+
+  #container-form textarea {
+    font-size: 1em;
+    width: 25em;
+    margin: 0 auto 0.5em;
+  }
+
+  #container-form button {
+    font-size: 1em;
+    width: 25em;
+    margin: 0 auto;
+  }
+
+.whatsapp{
+  position: fixed;
+  width: 8em;
+  right: 1em;
+  bottom: 2em;
+  cursor: pointer;
+  padding: 0;
+}
 
 }
