@@ -14,7 +14,8 @@ icon.addEventListener('click', function() {
 });
 
 var typed = new Typed('.element', {
-  strings: ["Somos una productora audiovisual de <b>Contenido productivo</b>.", "Productora de publicidad para contenido <b>Social media</b>."],
+  strings: ["Somos una productora audiovisual de <b>Contenido productivo</b>.",
+   "Productora de publicidad para contenido <b>Social media</b>."],
   typeSpeed: 60,
   backSpeed: 25,
   startDelay: 300,
@@ -22,5 +23,5 @@ var typed = new Typed('.element', {
   loopCount: false,
   showCursor: true,
   cursorChar: '|',
-  contentType: 'html'
+  contentType: 'html',
 });

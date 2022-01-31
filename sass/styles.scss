@@ -462,7 +462,7 @@ h3{
 
   .logo{
     top: 20px;
-    width: 35em;
+    width: 30em;
     margin: 0 auto;
     padding: 0;
     float: none;
@@ -493,8 +493,13 @@ h3{
   }
 
   nav ul {
-    left: 0;
+    left: 5px;
     padding: 0;
   }
+
+  nav a{
+    font-size: 0.9em;
+  }
+
 
 }
