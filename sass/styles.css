@@ -561,4 +561,54 @@ iframe {
   cursor: pointer;
   padding: 0;
 }
+
+h3 {
+  display: none;
+}
+
+.back-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .back-mobile {
+    display: block;
+    position: absolute;
+    width: 100%;
+  }
+  .background {
+    display: none;
+  }
+  .logo {
+    top: 20px;
+    width: 35em;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+    position: relative;
+  }
+  .hamburger-icon {
+    float: right;
+    right: 0;
+    left: 80%;
+    background: none;
+  }
+  .icon-1, .icon-2, .icon-3 {
+    background: #ffff;
+  }
+  h1 {
+    display: none;
+  }
+  h3 {
+    position: relative;
+    font-size: 3em;
+    color: #fff;
+    margin: 125px 20px 0 50px;
+    display: block;
+  }
+  nav ul {
+    left: 0;
+    padding: 0;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
