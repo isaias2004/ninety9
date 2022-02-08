@@ -126,7 +126,7 @@ nav {
 nav ul {
   margin: 0;
   position: absolute;
-  top: 10%;
+  top: 25%;
   left: 40%;
   text-decoration: none;
 }
@@ -681,7 +681,6 @@ iframe {
     position: relative;
     font-size: 3em;
     color: #fff;
-    margin: 30% 1em 0 0.5em;
     display: block;
   }
   nav ul {
@@ -754,6 +753,25 @@ iframe {
   }
   .container-redes {
     margin-top: 30em;
+  }
+  .content-nosotros h2 {
+    display: none;
+  }
+  #desde {
+    display: none;
+  }
+  .tarjet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 0.8em;
+  }
+  .content-tarjet h3 {
+    margin: none;
   }
 }
 /*# sourceMappingURL=styles.css.map */
