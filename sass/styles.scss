@@ -514,6 +514,12 @@ nav {
     width: 100%;
   }
 
+  #back-mobile{
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
   .background{
     display: none;
   }
@@ -545,6 +551,7 @@ nav {
 
   #titulo-principal-mobile{
     display: block; 
+    padding: 1em;
   }
 
   h3{
@@ -642,6 +649,13 @@ nav {
 
   .content-tarjet h3{
     margin: none;
+  }
+
+
+  .content-nosotros h3{
+    font-size: 3em;
+    margin-top:0px;
+
   }
 
 }

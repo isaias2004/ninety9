@@ -651,6 +651,11 @@ iframe {
     position: absolute;
     width: 100%;
   }
+  #back-mobile {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
   .background {
     display: none;
   }
@@ -677,6 +682,7 @@ iframe {
   }
   #titulo-principal-mobile {
     display: block;
+    padding: 1em;
   }
   h3 {
     position: relative;
@@ -773,6 +779,10 @@ iframe {
   }
   .content-tarjet h3 {
     margin: none;
+  }
+  .content-nosotros h3 {
+    font-size: 3em;
+    margin-top: 0px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
