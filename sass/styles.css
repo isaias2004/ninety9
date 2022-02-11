@@ -641,6 +641,10 @@ iframe {
   text-align: center;
 }
 
+.agencia {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   header .hamburger-icon, .logo {
     position: fixed;
@@ -761,9 +765,6 @@ iframe {
   .container-redes {
     margin-top: 30em;
   }
-  .content-nosotros h2 {
-    display: none;
-  }
   #desde {
     display: none;
   }
@@ -777,12 +778,22 @@ iframe {
             flex-direction: column;
     font-size: 0.8em;
   }
-  .content-tarjet h3 {
-    margin: none;
+  .content-nosotros h2 {
+    display: none;
+  }
+  .agencia {
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.1em;
+    float: right;
+    text-align: right;
   }
   .content-nosotros h3 {
-    font-size: 3em;
-    margin-top: 0px;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    margin: none;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
