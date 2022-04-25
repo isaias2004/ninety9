@@ -290,7 +290,7 @@ h1:before {
     left: 120%;
   }
   100% {
-    left: -20%;
+    left: none;
   }
 }
 
@@ -302,7 +302,7 @@ h1:before {
     left: 120%;
   }
   100% {
-    left: -20%;
+    left: none;
   }
 }
 
@@ -353,7 +353,7 @@ h2:before {
     left: 120%;
   }
   100% {
-    left: -20%;
+    left: none;
   }
 }
 
@@ -643,6 +643,10 @@ iframe {
 
 .agencia {
   display: none;
+}
+
+#trucazo {
+  opacity: 0;
 }
 
 @media only screen and (max-width: 768px) {

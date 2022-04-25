@@ -45,13 +45,25 @@
           <li><b>Ubicación:</b> Buenos Aires, Argentina</li>
         </ul>
     </div>
-        <div id="container-form">
+        <form id="container-form">
           <h3>¡Envianos un mensaje!</h3>
-          <input type="text" placeholder="Nombre y apellido">
-          <input type="text" placeholder="Email">
-          <textarea cols="20" rows="5" placeholder="Mensaje"></textarea>
-          <button type="submit">Enviar</button>
-        </div>
+          <input name="name" required type="text" id="name" placeholder="Juan">
+          <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+          <textarea id="message" name="message" cols="20" rows="5" placeholder="Mensaje"></textarea>
+          <button type="submit" class="btn primary full">Enviar mensaje</button>
+          <a href="mailto:mailto:ninety9@gmail.com" id="trucazo" target="_blank">asd</a>
+        </form>
+
+       <!-- <form id="form" action="" class="container-form">
+          <label for="name">Nombre Completo <span>*</span></label>
+            <input name="name" required type="text" id="name" placeholder="Juan">
+          <label for="email">Correo electrónico <span>*</span></label>
+            <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+          <label for="message">Mensaje</label>
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="Mensaje..."></textarea>
+          <button type="submit" class="btn primary full">enviar mensaje</button>
+        </form> -->
+
   </section>
 
   <img class="ninety" src="images/NN9 FILMS (BLACK).png" alt="logo en grande" width="550em">
@@ -93,7 +105,7 @@
         </div>
       </div>
     </section>
-  <img class="whatsapp" src="images/WPP.png" alt="logo whatsapp">
+    <a  href="https://api.whatsapp.com/send?phone=5491132560251&text=Hola,%20me%20gustar%C3%ADa%20tener%20mas%20informaci%C3%B3n%20sobre%20esta%20Agencia%20%20Audiovisual%20!" target="_blank"><img class="whatsapp" src="images/WPP.png" alt="logo whatsapp"></a>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="js.js"></script>

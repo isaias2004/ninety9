@@ -225,7 +225,7 @@ nav {
         left:120%;
       }
       100%{
-        left:-20%;
+        left:none;
       }
     }
 
@@ -267,7 +267,7 @@ nav {
         left:120%;
       }
       100%{
-        left:-20%;
+        left:none;
       }
     }
    .content-nosotros h3{
@@ -503,6 +503,10 @@ nav {
 
 .agencia{
   display: none;
+}
+
+#trucazo {
+  opacity: 0;
 }
 
 @media only screen and (max-width: 768px) {
